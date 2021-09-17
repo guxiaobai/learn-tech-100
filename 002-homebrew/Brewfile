@@ -1,8 +1,9 @@
 tap "homebrew/cask"
+tap "adoptopenjdk/openjdk"
 
 cask "xquartz"
 cask "clashx"
-
+cask "adoptopenjdk8"
 cask "iterm2"
 cask "google-chrome"
 cask "iina"
