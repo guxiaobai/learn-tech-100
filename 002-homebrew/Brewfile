@@ -1,0 +1,8 @@
+tap "homebrew/cask"
+
+cask "xquartz"
+cask "clashx"
+
+cask "iterm2"
+cask "google-chrome"
+cask "iina"
