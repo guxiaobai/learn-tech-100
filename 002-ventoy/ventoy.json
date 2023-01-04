@@ -1,0 +1,7 @@
+{
+    "control": [
+        { "VTOY_DEFAULT_SEARCH_ROOT": "/iso" },        
+        { "VTOY_MENU_TIMEOUT": "10" },
+        { "VTOY_DEFAULT_IMAGE": "/iso/WePE_64_V2.1.iso" }
+    ]
+}
