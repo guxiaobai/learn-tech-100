@@ -1,0 +1,15 @@
+<Configuration>
+  <Add SourcePath="F:\" OfficeClientEdition="64" Version="16.0.10730.20102">
+    <Product ID="ProPlus2019Retail">
+      <Language ID="zh-CN" />
+      <ExcludeApp ID="Access" />
+      <ExcludeApp ID="Groove" />
+      <ExcludeApp ID="Lync" />
+      <ExcludeApp ID="OneDrive" />
+      <ExcludeApp ID="OneNote" />
+      <ExcludeApp ID="Outlook" />
+      <ExcludeApp ID="Publisher" />
+    </Product>
+  </Add>
+  <Updates Enabled="FALSE"/>
+</Configuration>
