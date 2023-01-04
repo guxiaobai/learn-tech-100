@@ -19,6 +19,7 @@ git config --global push.default simple
 
 ```
 Set-Service -Name ssh-agent -StartupType Automatic
+Start-Service ssh-agent
 ```
 
 ## Ref
