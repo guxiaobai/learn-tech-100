@@ -3,13 +3,15 @@
 
 |本期版本|上期版本
 |:---:|:---:
-`Tue Aug  2 00:34:05 CST 2022` |
+`Wed Jan  4 23:36:50 CST 2023` |
 
 ### Ltsc
 
+> Chocolatey 以来太多，建议直接安装
+
 ```bash
 Add-AppxPackage Microsoft.VCLibs.x64.14.00.Desktop.appx
-choco install microsoft-windows-terminal
+Add-AppxPackage Microsoft.WindowsTerminal_Win10_1.15.3465.0_8wekyb3d8bbwe.msixbundle
 ```
 
 
