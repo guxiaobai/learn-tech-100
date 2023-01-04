@@ -53,7 +53,8 @@ sudo systemctl enable clash.service && sudo systemctl start clash.service
 
 ## Service
 
-* [https://ssp-net.me/](https://ssp-net.me/)
+* [https://sspcloud.net/](https://sspcloud.net/)
+* [https://hd47h3dikuktvxnvjzja.wgetcloud.org/](https://hd47h3dikuktvxnvjzja.wgetcloud.org/)
 * [https://portal.shadowsocks.nz/](https://portal.shadowsocks.nz/)
 
 ## Ref
