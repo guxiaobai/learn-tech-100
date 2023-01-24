@@ -19,6 +19,8 @@ Add-AppxPackage Microsoft.VCLibs.140.00_14.0.30704.0_x64__8wekyb3d8bbwe.Appx
 Microsoft.WindowsStore_22210.1401.16.0_neutral_~_8wekyb3d8bbwe.msixbundle
 ```
 
+* 重置: `wsreset.exe`
+
 ## Windows Terminal
 
 > Chocolatey 依赖太多，建议直接安装
@@ -35,6 +37,7 @@ Add-AppxPackage Microsoft.WindowsTerminal_Win10_1.15.3465.0_8wekyb3d8bbwe.msixbu
 * [https://github.com/microsoft/terminal](https://github.com/microsoft/terminal)
 * [C++ Runtime framework packages for Desktop Bridge](https://docs.microsoft.com/en-us/troubleshoot/developer/visualstudio/cpp/libraries/c-runtime-packages-desktop-bridge)
 * <https://github.com/brokyz/Win10_LTSC_2021_FixPacks>
+* [微软商店遇到错误其中一个更新服务未正常运行](https://answers.microsoft.com/zh-hans/windows/forum/all/%E5%BE%AE%E8%BD%AF%E5%95%86%E5%BA%97%E9%81%87/2ef99783-4139-4164-9ab0-0ce55dbfc4b1)
 
 **Stroe**
 
