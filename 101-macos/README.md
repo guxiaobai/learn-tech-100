@@ -3,8 +3,8 @@
 
 |本期版本|上期版本
 |:---:|:---:
-`Monterey` / `12.6.2`| - 
-`Fri Dec 16 21:19:45 CST 2022` |  -
+`Monterey` / `12.6.3` | `Monterey` / `12.6.0`
+`Tue Jan 24 16:34:05 CST 2023` | `Fri Dec 16 21:19:45 CST 2022`
 
 ## Gatekeeper
 
