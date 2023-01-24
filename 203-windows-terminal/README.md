@@ -34,6 +34,7 @@ Add-AppxPackage Microsoft.WindowsTerminal_Win10_1.15.3465.0_8wekyb3d8bbwe.msixbu
 
 ## Ref
 
+* [安装并开始设置 Windows 终端](https://learn.microsoft.com/zh-cn/windows/terminal/install)
 * [https://github.com/microsoft/terminal](https://github.com/microsoft/terminal)
 * [C++ Runtime framework packages for Desktop Bridge](https://docs.microsoft.com/en-us/troubleshoot/developer/visualstudio/cpp/libraries/c-runtime-packages-desktop-bridge)
 * <https://github.com/brokyz/Win10_LTSC_2021_FixPacks>
