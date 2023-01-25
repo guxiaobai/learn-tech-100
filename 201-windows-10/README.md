@@ -4,6 +4,9 @@
 dism /online /get-drivers /format:table
 dism /online /export-driver /destination:"C:\Drivers"
 pnputil /add-driver "C:\Drivers\*.inf" /subdirs /install /reboot
+
+
+powercfg.exe /hibernate off
 ```
 
 ## Ref
@@ -25,3 +28,9 @@ pnputil /add-driver "C:\Drivers\*.inf" /subdirs /install /reboot
 **System time**
 
 * [UTC in Microsoft Windows](https://wiki.archlinux.org/title/System_time#UTC_in_Microsoft_Windows)
+
+
+**misc**
+
+* [关闭电脑，或使其进入睡眠或休眠状态](https://support.microsoft.com/zh-cn/windows/%E5%85%B3%E9%97%AD%E7%94%B5%E8%84%91-%E6%88%96%E4%BD%BF%E5%85%B6%E8%BF%9B%E5%85%A5%E7%9D%A1%E7%9C%A0%E6%88%96%E4%BC%91%E7%9C%A0%E7%8A%B6%E6%80%81-2941d165-7d0a-a5e8-c5ad-8c972e8e6eff#ID0EBD=Windows_10)
+* [如何在运行 Windows 的计算机上禁用和重新启用休眠](https://learn.microsoft.com/zh-cn/troubleshoot/windows-client/deployment/disable-and-re-enable-hibernation)
