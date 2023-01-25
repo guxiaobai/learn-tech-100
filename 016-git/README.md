@@ -22,6 +22,13 @@ Set-Service -Name ssh-agent -StartupType Automatic
 Start-Service ssh-agent
 ```
 
+**Misc**
+
+```bash
+git config --global http.proxy socks5://127.0.0.1:7890
+git config --global https.proxy socks5://127.0.0.1:7890
+```
+
 ## Ref
 
 * [https://git-scm.com/](https://git-scm.com/)
