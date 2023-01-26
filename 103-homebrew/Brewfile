@@ -19,16 +19,18 @@ cask "charles"
 cask "xquartz"
 
 # Dev
-cask "vmware-fusion"
+tap "adoptopenjdk/openjdk"
 cask "virtualbox"
 cask "vagrant"
 cask "docker"
+cask "adoptopenjdk11"
 brew "mysql"
 brew "postgresql@14"
 brew "redis"
 brew "node@18"
 brew "rbenv"
 
+# Work
 cask "todesk"
 cask "motrix"
 cask "wechat"
