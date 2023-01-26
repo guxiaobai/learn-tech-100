@@ -1,6 +1,7 @@
 tap "homebrew/cask"
 tap "homebrew/services"
 
+# App
 brew "tmux"
 brew "tig"
 brew "tree"
@@ -17,10 +18,17 @@ cask "the-unarchiver"
 cask "charles"
 cask "xquartz"
 
+# Dev
+cask "vmware-fusion"
 cask "virtualbox"
-cask "virtualbox-extension-pack"
 cask "vagrant"
 cask "docker"
+brew "mysql"
+brew "postgresql@14"
+brew "redis"
+brew "node@18"
+brew "rbenv"
+
 cask "todesk"
 cask "motrix"
 cask "wechat"
