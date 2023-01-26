@@ -20,7 +20,6 @@ cask "xquartz"
 
 # Dev
 tap "adoptopenjdk/openjdk"
-cask "launchrocket"
 cask "virtualbox"
 cask "vagrant"
 cask "docker"
