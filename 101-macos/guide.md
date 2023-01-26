@@ -1,4 +1,4 @@
-# Guide
+# Guide On Mac
 
 |本期版本|上期版本
 |:---:|:---:
@@ -66,5 +66,36 @@
 `Bundler` | `2.4.5` | `-`
 
 
+## Space
+
+组件|本期版本|上期版本
+--- | --- |---
+MQTTX | `1.9.0`
+阿里云盘 | 
+微信 Mac 版 |
+腾讯会议 |
+ToDesk |
+Google Chrome |
+
+**Vagrant**
+
+Box | Version
+---|---
+`ubuntu` | `focal64`
+
+
+**Docker**
+
+Image | Version
+---|---
+`emqx/emqx` | `5.0.6`
+`ubuntu` | `20.04`
+`ubuntu` | `22.04`
+`redis` | `7`
+`nginx` | `1.23`
+`ruby` | `3.1`
+`ruby` | `2.7`
+`adminer` | `4`
+`mysql` | `8`
 
 
