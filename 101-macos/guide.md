@@ -97,5 +97,6 @@ Image | Version
 `ruby` | `2.7`
 `adminer` | `4`
 `mysql` | `8`
+`postgres` | `14`
 
 
