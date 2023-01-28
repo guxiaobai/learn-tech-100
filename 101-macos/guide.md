@@ -41,7 +41,7 @@
 ---|---|---
 `Oracle VirtualBox` | `7.0.6,155176` | `-`
 `Vagrant` | `2.3.4` | `-`
-`Docker Desktop` | `4.16.2,95914` | `-`
+`Docker Desktop` | `4.16.2,95914` | `4.14.0`
 `AdoptOpenJDK` | `11.0.11,9` | -
 `Nginx` | `1.23.3` | `-`
 `MySQL` | `8.0.32` | `-`
