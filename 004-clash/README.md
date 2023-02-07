@@ -4,18 +4,19 @@
 
 |本期版本|上期版本
 |:---:|:---:
-`Wed Jan  4 12:52:46 CST 2023` | -
+`Tue Feb  7 15:43:33 CST 2023` | -
 
 
 ## Download
 
 项目|平台|备注
 ---:|:---|:---:
-[`https://github.com/Dreamacro/clash`](https://github.com/Dreamacro/clash) | `Linux`
-[`https://github.com/yichengchen/clashX`](https://github.com/yichengchen/clashX) | `macOS` | [`1.96.2`](https://github.com/yichengchen/clashX/releases/download/1.91.1/ClashX.dmg)
-[`https://github.com/Fndroid/clash_for_windows_pkg`](https://github.com/Fndroid/clash_for_windows_pkg) | `Windows` | [`0.20.12`](https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.20.12/Clash.for.Windows.Setup.0.20.12.exe)
-[`https://github.com/vernesong/OpenClash`](https://github.com/vernesong/OpenClash) | `OpenWrt`
-[`https://github.com/Kr328/ClashForAndroid`](https://github.com/Kr328/ClashForAndroid) | `Android`
+[`Clash`](https://github.com/Dreamacro/clash) | `Linux`
+[`ClashX`](https://github.com/yichengchen/clashX) | `macOS` | `1.96.2`
+[`ClashX Pro`](https://install.appcenter.ms/users/clashx/apps/clashx-pro/distribution_groups/public) | `macOS` | `1.96.2.1`
+[`Clash for Windows`](https://github.com/Fndroid/clash_for_windows_pkg) | `Windows` | `0.20.12`
+[`OpenClash`](https://github.com/vernesong/OpenClash) | `OpenWrt`
+[`Clash for Android`](https://github.com/Kr328/ClashForAndroid) | `Android`
 
 ## Ubuntu
 
