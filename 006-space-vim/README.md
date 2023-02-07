@@ -6,25 +6,7 @@
 `Mon Feb  7 11:06:33 CST 2022` | -
 
 
-### Required
-
-> Ubuntu
-
-```
-sudo apt-get update && sudo apt-get install -y vim
-```
-
-> Big Sur
-
-```
-brew install vim
-```
-
-### Install
-
-```
-bash <(curl -fsSL https://raw.githubusercontent.com/liuchengxu/space-vim/master/install.sh)
-```
+## Setup
 
 **layers**
 
@@ -45,11 +27,36 @@ vim ~/.spacevim
 * 状态查看: `PlugStatus`
 * 安装插件: `PlugInstall`
 
+
+## Bugs
+
+* <https://github.com/vim/vim/releases/tag/v9.0.1168>
+* <https://vimhelp.org/term.txt.html>
+* [Linux Terminfo](https://blog.51cto.com/billtym/418510)
+
+```bash
+:verbose set ttymouse=sgr
+```
+
+```
+infocmp
+:set termcap
+```
+
+
+### Tips
+
+> [这个bug怎么没人提？ #348](https://github.com/liuchengxu/space-vim/issues/348)
+
+```
+Plug 'kshenoy/vim-signature'
+```
+
 ## Ref
 
-* [https://github.com/liuchengxu/space-vim](https://github.com/liuchengxu/space-vim)
+* <https://github.com/liuchengxu/space-vim>
+* <https://github.com/junegunn/vim-plug>
 * [Space-vim documentation](http://vim.liuchengxu.org/docs/org/tutorial_cn.html)
-* [https://github.com/junegunn/vim-plug](https://github.com/junegunn/vim-plug)
 * [Vim 复制粘帖格式错乱问题的解决办法](https://www.cnblogs.com/jianyungsun/archive/2012/07/31/2616671.html)
 * [vim-rails](https://github.com/tpope/vim-rails)
 * [epilande/vim-react-snippets](https://github.com/epilande/vim-react-snippets)
