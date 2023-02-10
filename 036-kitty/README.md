@@ -13,6 +13,7 @@ brew install kitty
 ```
 font_family  Source Code Pro
 font_size 20
+background_opacity 0.8
 ```
 
 
