@@ -9,30 +9,28 @@
 组件|本期版本|上期版本
 ---|---|---
 `Monterey` |  `12.6.3` | `-`
+`Ventura` |  `13.2` | `-`
+`Command Line Tools` | `14.2` | `-`
+`ClashX` | `1.96.2` | `-`
+`Homebrew` | `3.6.21`
 
 ## App
 
 
 组件|本期版本|上期版本
 ---|---|---
-`Safari` | `16.3` | `-`
-`Command Line Tools` | `14.2` | `-`
-`Homebrew` |
-`ClashX` | `1.96.2` | `-`
 `PDF Expert` | `2.5.22` | `-`
 `Deep Freeze Mac` | `7.50.220.0100` | `-`
-`iTerm2` |
-`MacDown` |
-`Visual Studio Code` |
-`Sequel Ace` |
+`iTerm2` | `3.4.19`
+`MacDown` | `0.7.2`
+`Microsoft Visual Studio Code` | `1.74.3`
+`Sequel Ace` | `4.0.5,20046`
 `Insomnia` |
 `IINA` |
 `The Unarchiver`|
 `fish shell` | `3.6.0`|
 `space-vim`|
-`Charles` | `4.6.3` |
 `Source Code Pro` | `2.038R-ro/1.058R-it/1.018R-VAR` | `-`
-`XQuartz` | `2.8.4`
 
 
 ## Dev
