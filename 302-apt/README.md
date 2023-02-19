@@ -6,15 +6,23 @@
 
 ### 修改安装源
 
+
+
 ```
-sudo sed -i -r 's/([a-zA-Z-]+\.)?(archive|security)\.ubuntu\.com/mirrors.aliyun.com/g' /etc/apt/sources.list
+sudo cp /etc/apt/sources.list{,.default}
+
+sudo sed -i "s@http://.*archive.ubuntu.com@https://mirrors.tuna.tsinghua.edu.cn@g" /etc/apt/sources.list
+sudo sed -i "s@http://.*security.ubuntu.com@https://mirrors.tuna.tsinghua.edu.cn@g" /etc/apt/sources.list
+
+# sudo sed -i -r 's/([a-zA-Z-]+\.)?(archive|security)\.ubuntu\.com/mirrors.aliyun.com/g' /etc/apt/sources.list
+
 ```
 
 
 > `Desktop`
 
 ```
-sudo apt-get update && sudo apt-get install -y apt-transport-https ca-certificates build-essential openssh-server git
+sudo apt-get update && sudo apt-get install -y apt-transport-https ca-certificates openssh-server net-tools build-essential git
 ```
 
 ### Command
