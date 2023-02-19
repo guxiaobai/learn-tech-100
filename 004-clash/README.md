@@ -18,16 +18,21 @@
 [`OpenClash`](https://github.com/vernesong/OpenClash) | `OpenWrt`
 [`Clash for Android`](https://github.com/Kr328/ClashForAndroid) | `Android`
 
+
+
+## Clash for Windows
+
+
+* [Clash for Windows 代理工具使用说明](https://docs.gtk.pw/)
+
 ## Ubuntu
 
 > `22.04-Desktop`
 
 
-> `clash.desktop`
 
-`wget https://cdn.jsdelivr.net/gh/Dreamacro/clash@master/docs/logo.png`
-
-`sudo mv clash.desktop /usr/share/applications/`
+* `sudo mv clash.desktop ~/.local/share/applications/`
+* `~/.local/share/applications/clash.desktop`
 
 
 
@@ -76,3 +81,5 @@ allow-lan: true
 * [在 Linux 中使用 Clash](https://blog.iswiftai.com/posts/clash-linux/)
 * [在终端中如何纯命令行控制clash](https://segmentfault.com/a/1190000041862051)
 * [Ubuntu下使用Clash For Windows](https://i.hiifong.cc/clash/)
+* [Clash for Windows 代理工具使用说明](https://docs.gtk.pw/)
+* [Linux 上 Clash For Windows 如何设置开机自启与桌面图标](https://blog.zzsqwq.cn/posts/clash-for-windows-on-linux/)
