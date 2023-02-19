@@ -1,0 +1,9 @@
+[Desktop Entry]
+  Name=clash
+  Comment=Clash
+  Exec=/home/vm10/.clash/cfw
+  Icon=/home/vm10/.clash/logo.png
+  Type=Application
+  Categories=Development;
+  StartupNotify=true
+  NoDisplay=false
