@@ -1,4 +1,4 @@
-# Clash
+# Clash - A rule-based tunnel in Go
 
 |本期版本|上期版本
 |:---:|:---:
@@ -19,39 +19,14 @@ export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_pr
 
 项目|平台|版本|备注
 ---:|:---|:---:|:---:
-[`Clash`](https://github.com/Dreamacro/clash) | `Linux` | `v1.13.0` | 适合 Server 使用
-[` Clash Premium`](https://github.com/Dreamacro/clash/releases/tag/premium) | `Linux`
+[`Clash`](https://github.com/Dreamacro/clash) | `Linux` | `v1.13.0` |
 [`ClashX`](https://github.com/yichengchen/clashX) | `macOS` | `1.96.2`
-[`ClashX Pro`](https://install.appcenter.ms/users/clashx/apps/clashx-pro/distribution_groups/public) | `macOS` | `1.96.2.1`
-[`Clash for Windows`](https://github.com/Fndroid/clash_for_windows_pkg) | `Windows`、`Linux` | `0.20.12` | 适合 `Desktop` 使用
+[`Clash for Windows`](https://github.com/Fndroid/clash_for_windows_pkg) | `Windows`、`Linux` | `0.20.16` | `Premium`
 [`OpenClash`](https://github.com/vernesong/OpenClash) | `OpenWrt`
 [`Clash for Android`](https://github.com/Kr328/ClashForAndroid) | `Android`
+[`Clash Premium`](https://github.com/Dreamacro/clash/releases/tag/premium) | `Linux` | `2023.02.16` | `Premium`
+[`ClashX Pro`](https://install.appcenter.ms/users/clashx/apps/clashx-pro/distribution_groups/public) | `macOS` | `1.96.2.1` | `Premium`
 
-
-
-## Clash
-
-> `22.04`
-
-安装, 启动后会在 `~/.config/clash` 目录生成配置文件
-
-```
-version=v1.13.0
-wget https://github.com/Dreamacro/clash/releases/download/${version}/clash-linux-amd64-${version}.gz
-gunzip clash-linux-amd64-${version}.gz
-sudo mv clash-linux-amd64-${version} /usr/local/bin/clash
-sudo chmod +x /usr/local/bin/clash
-
-clash
-```
-
-配置开机启动
-
-```
-sudo mv ~/.config/clash /etc
-sudo mv clash.service /etc/systemd/system/clash.service
-sudo systemctl enable clash.service && sudo systemctl start clash.service
-```
 
 
 
@@ -62,17 +37,12 @@ sudo systemctl enable clash.service && sudo systemctl start clash.service
 * [`yacd-dashboard`](https://github.com/haishanh/yacd): <http://yacd.haishan.me/>
 * <http://127.0.0.1:9090/ui>
 
-
-```bash
-git clone -b gh-pages https://github.com/Dreamacro/clash-dashboard clash-dashboard
-```
-
 > 配置
 
 ```json
+allow-lan: true
 external-controller: '0.0.0.0:9090'
 external-ui: clash-dashboard
-allow-lan: true
 ```
 
 
@@ -83,9 +53,6 @@ allow-lan: true
 
 
 ```bash
-tar -zxvf Clash.for.Windows-0.20.16-x64-linux.tar.gz
-mv Clash\ for\ Windows-0.20.16-x64-linux ~/.clash
-
 ~/.clash/cfw
 ```
 
@@ -98,14 +65,6 @@ mv Clash\ for\ Windows-0.20.16-x64-linux ~/.clash
 ---:|:---
 全局 |  `/usr/share/applications/`
 当前用户 | `~/.local/share/applications/`
-
-```bash
-mv logo.png ~/.clash
-
-# 用户名修改
-mv clash.desktop ~/.local/share/applications/
-```
-
 
 
 
@@ -124,4 +83,5 @@ mv clash.desktop ~/.local/share/applications/
 * [Clash for Windows 代理工具使用说明](https://docs.gtk.pw/)
 * [Ubuntu 22.04 LTS安装并配置Clash](https://juejin.cn/post/7127911250654134302)
 * [Ubuntu Server利用Clash实现git代理 ](https://wuuconix.link/2021/08/14/clash-dashboard/)
+* [如何在 Linux 上优雅的使用 Clash？ · Zs's Blog](https://blog.zzsqwq.cn/posts/how-to-use-clash-on-linux/)
 

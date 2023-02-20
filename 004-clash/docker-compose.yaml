@@ -1,0 +1,16 @@
+services:
+  clash:
+    # dreamacro/clash
+    # dreamacro/clash-premium
+    image: dreamacro/clash
+    container_name: clash
+    volumes:
+      - ./WgetCloud.yaml:/root/.config/clash/config.yaml
+      - ./Country.mmdb:/root/.config/clash/Country.mmdb
+      - ./clash-dashboard:/root/.config/clash/clash-dashboard
+    ports:
+      - "7890:7890"
+      - "7891:7891"
+      - "9090:9090" # external controller (Restful API)
+    restart: unless-stopped
+    network_mode: "bridge" # or "host" on Linux
