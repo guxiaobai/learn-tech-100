@@ -32,10 +32,12 @@ premium:
 	sudo mv clash-premium /usr/local/bin/clash
 	sudo chmod +x /usr/local/bin/clash
 
-	echo 'net.ipv4.ip_forward=1' | sudo tee -a /etc/sysctl.conf
-	sudo sysctl -p
-	sudo systemctl stop systemd-resolved
-	sudo systemctl disable systemd-resolved
+	# 开启流量转发需要执
+	# echo 'net.ipv4.ip_forward=1' | sudo tee -a /etc/sysctl.conf
+	# sudo sysctl -p
+	# 关闭默认的系统 dns
+	# sudo systemctl stop systemd-resolved
+	# sudo systemctl disable systemd-resolved
 
 service:
 	sudo mv ~/.config/clash /etc
