@@ -16,3 +16,5 @@
 * [You-Get](https://github.com/soimort/you-get)
 * [Compiler Explorer](https://godbolt.org/)、[AST explorer](https://astexplorer.net/)
 * [Adobe Photoshop 2022 V23.0.0.36（vposy大神破解的Adobe2022全家桶）](https://www.laoliang.net/soft/6369.html)
+* [如何维护更新日志](https://keepachangelog.com/)
+* [语义化版本](https://semver.org/lang/zh-CN/)
