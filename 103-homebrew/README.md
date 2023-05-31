@@ -16,6 +16,17 @@ set -Ux HOMEBREW_BOTTLE_DOMAIN https://mirrors.ustc.edu.cn/homebrew-bottles
 set -Ux HOMEBREW_NO_AUTO_UPDATE 1
 ```
 
+## Misc
+
+```
+npm install -g npm@9.6.7
+gem update --system --verbose -N
+python -m pip install --upgrade pip
+pip install ansible
+pip install you-get
+fish_add_path ~/.composer/vendor/bin
+```
+
 ## Env
 
 * `HOMEBREW_NO_AUTO_UPDATE`
