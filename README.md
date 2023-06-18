@@ -17,3 +17,15 @@
 * [Compiler Explorer](https://godbolt.org/)、[AST explorer](https://astexplorer.net/)
 * [如何维护更新日志](https://keepachangelog.com/)
 * [语义化版本](https://semver.org/lang/zh-CN/)
+
+
+## misc
+
+
+* [cloud-init Documentation](https://cloudinit.readthedocs.io/en/latest/index.html)
+* [软件的Alpha、Beta、GM、OEM、LTS等版本的含义](https://blog.csdn.net/qq_36761831/article/details/83188138)
+
+**`DEBIAN_FRONTEND` - `@TODO`**
+
+* [`get.docker.com`](get.docker.com)
+* [DEBIAN_FRONTEND noninteractive参数](https://blog.csdn.net/oguro/article/details/102840215)
