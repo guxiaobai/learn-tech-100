@@ -27,3 +27,4 @@ softwareupdate --list-full-installers
 * [如何重置 Mac 的 SMC](https://support.apple.com/zh-cn/HT201295)
 * [如果您的 Mac 无法顺利完成启动](https://support.apple.com/zh-cn/HT204156)
 * [适用于苹果芯片了吗？](https://isapplesiliconready.com/zh)
+* [如何在 macOS 上通过命令查看 CPU 信息](https://blog.meow.page/archives/get-cpu-info-via-command-line-in-mac-os-x/)

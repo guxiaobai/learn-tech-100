@@ -14,6 +14,9 @@
 `ESP` | `500MB` |
 `exFAT`| | `Clonezilla` / `repo`
 
+## Misc
+
+* [newer nx_superblock found in descriptor](https://github.com/Thomas-Tsai/partclone/blob/91283194821013214d7d91dfa10573e767a47f32/src/apfsclone.c#L60)
 
 ## Ref
 
