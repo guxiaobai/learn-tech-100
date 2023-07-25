@@ -6,6 +6,8 @@ brew "tmux"
 brew "tig"
 brew "tree"
 brew "wget"
+brew "pgcli"
+brew "mycli"
 brew "vim"
 brew "fish"
 brew "ffmpeg"
@@ -14,11 +16,12 @@ cask "iterm2"
 cask "macdown"
 cask "visual-studio-code"
 cask "sequel-ace"
+cask "postico"
 cask "insomnia"
 cask "iina"
 cask "the-unarchiver"
 cask "charles"
-cask "xquartz"
+# cask "xquartz"
 
 # Dev
 tap "adoptopenjdk/openjdk"
@@ -30,20 +33,6 @@ brew "nginx"
 brew "mysql"
 brew "postgresql@14"
 brew "redis"
-
-# fish_add_path /usr/local/opt/node@18/bin
-brew "node@18"
-
-# fish_add_path /usr/local/opt/ruby@3.1/bin
-# fish_add_path /usr/local/lib/ruby/gems/3.1.0/bin
-brew "ruby@3.1"
-
-# fish_add_path /usr/local/opt/python@3.11/libexec/bin
-brew "python@3.10"
-
-# fish_add_path /usr/local/opt/php@8.1/bin
-# fish_add_path /usr/local/opt/php@8.1/sbin
-brew "php@8.1"
 
 # Spakce
 cask "mqttx"
