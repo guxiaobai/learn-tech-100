@@ -18,13 +18,22 @@ chsh -s /usr/bin/fish
 
 ## macOS
 
-> `Big Sur`
+> `Ventura`
 
-```
+```bash
 brew install fish
 
 echo "/usr/local/bin/fish" | sudo tee -a /etc/shells
 chsh -s /usr/local/bin/fish
+```
+
+> `Apple silicon`
+
+```bash
+brew install fish
+
+echo '/opt/homebrew/bin/fish' | sudo tee -a /etc/shells
+chsh -s /opt/homebrew/bin/fish
 ```
 
 ## 配置
@@ -35,6 +44,13 @@ chsh -s /usr/local/bin/fish
 ```
 set -Ux LANG en_US.UTF-8
 set -Ux LC_ALL en_US.UTF-8
+```
+
+## Misc
+
+```
+// https://superuser.com/questions/776008/how-to-remove-a-path-from-path-variable-in-fish
+set -e fish_user_paths[2]
 ```
 
 ## Ref
