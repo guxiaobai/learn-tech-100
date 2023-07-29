@@ -1,0 +1,20 @@
+---
+  - hosts: all
+    tasks:
+    - name: install clash
+      copy:
+        src: "{{ item.name }}"
+        dest: "{{ item.path }}"
+        mode: '0755'
+      with_items:
+        - { name: 'Country.mmdb', path: '/etc/clash/Country.mmdb' }
+        - { name: 'clash-dashboard', path: '/etc/clash/clash-dashboard' }
+        - { name: 'config.yaml', path: '/etc/clash/config.yaml'}
+        - { name: 'clash', path: '/usr/local/bin/clash' }
+        - { name: 'clash.service', path: '/etc/systemd/system/clash.service' }
+
+    - name: Start service Clash
+      service:
+        name: clash
+        enabled: yes
+        state: started
