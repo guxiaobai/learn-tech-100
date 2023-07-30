@@ -2,7 +2,23 @@
 
 |本期版本|上期版本
 |:---:|:---:
-`Wed Jun 21 21:16:32 CST 2023` | -
+`Mon Jul 31 00:01:43 CST 2023` | `Wed Jun 21 21:16:32 CST 2023`
+
+
+## install
+
+```bash
+sudo snap install --classic certbot
+sudo ln -s /snap/bin/certbot /usr/bin/certbot
+```
+
+## http
+
+```
+sudo python -m http.server 80
+sudo certbot certonly --nginx -d "example.com" -m "sikuan.gu@gmail.com" --agree-tos
+```
+
 
 ## Ref
 
