@@ -34,3 +34,4 @@
 ## 视频
 
 * [`中科院新科海_刘向东_Win2003教程_哔哩哔哩_bilibili`](https://www.bilibili.com/video/BV1Rb411T7si/)
+* <http://railscasts.com/>
