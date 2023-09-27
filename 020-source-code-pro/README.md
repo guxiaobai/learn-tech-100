@@ -2,11 +2,9 @@
 
 |本期版本|上期版本
 |:---:|:---:
-`Mon Jan  2 00:03:08 CST 2023` |
+`Thu Sep 28 00:27:16 CST 2023` | `Mon Jan  2 00:03:08 CST 2023`
 
 ## macOS
-
-> `Monterey`
 
 User | Path
 ---|---
@@ -14,7 +12,7 @@ User | Path
 `Current User` | `~/Library/Fonts/`
 
 ```bash
-unzip -d /Library/Fonts/source-code-pro TTF-source-code-pro-2.038R-ro-1.058R-it.zip
+sudo unzip -d /Library/Fonts/source-code-pro TTF-source-code-pro-2.038R-ro-1.058R-it.zip
 ```
 
 ## Windows
