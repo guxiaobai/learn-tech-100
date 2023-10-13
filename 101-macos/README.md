@@ -20,6 +20,11 @@ softwareupdate --list-full-installers
 ```
 
 
+## Server
+
+* [如何自动登录 Mac 用户帐户](https://support.apple.com/zh-cn/HT201476)
+* [设定 Mac 的睡眠和唤醒设置](https://support.apple.com/zh-cn/guide/mac-help/mchle41a6ccd/13.0/mac/13.0)
+
 ## Ref
 
 * [如何创建可引导的 macOS 安装器](https://support.apple.com/zh-cn/HT201372)
