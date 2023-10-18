@@ -2,11 +2,11 @@
 
 |本期版本|上期版本
 |:---:|:---:
-`Tue Feb  7 15:19:25 CST 2023` |
+`Wed Oct 18 12:30:28 CST 2023` |
 
 ## Gatekeeper
 
-> [`https://disable-gatekeeper.github.io/`](https://disable-gatekeeper.github.io/)
+> <https://disable-gatekeeper.github.io/>
 
 ```bash
 sudo spctl --master-disable

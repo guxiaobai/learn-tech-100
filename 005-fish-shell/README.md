@@ -22,7 +22,11 @@ chsh -s /usr/bin/fish
 
 ```bash
 brew install fish
+```
 
+> `Intel-based`
+
+```bash
 echo "/usr/local/bin/fish" | sudo tee -a /etc/shells
 chsh -s /usr/local/bin/fish
 ```
@@ -30,10 +34,11 @@ chsh -s /usr/local/bin/fish
 > `Apple silicon`
 
 ```bash
-brew install fish
-
 echo '/opt/homebrew/bin/fish' | sudo tee -a /etc/shells
 chsh -s /opt/homebrew/bin/fish
+
+# ~/.config/fish/config.fish
+eval (/opt/homebrew/bin/brew shellenv)
 ```
 
 ## 配置
@@ -44,6 +49,8 @@ chsh -s /opt/homebrew/bin/fish
 ```
 set -Ux LANG en_US.UTF-8
 set -Ux LC_ALL en_US.UTF-8
+
+set -Ux HOMEBREW_NO_AUTO_UPDATE 1
 ```
 
 ## Misc
