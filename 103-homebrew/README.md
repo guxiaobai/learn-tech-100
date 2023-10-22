@@ -13,6 +13,11 @@
 ```
 set -Ux HOMEBREW_BOTTLE_DOMAIN https://mirrors.ustc.edu.cn/homebrew-bottles
 set -Ux HOMEBREW_NO_AUTO_UPDATE 1
+
+
+# https://docs.brew.sh/Manpage#install-options-formulacask-
+set -Ux HOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK 1
+set -Ux HOMEBREW_NO_INSTALL_CLEANUP 1
 ```
 
 > `~/.config/fish/config.fish`
