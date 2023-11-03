@@ -21,7 +21,7 @@
 项目|平台|版本|备注
 ---:|:---|:---:|:---:
 [`Clash Premium`](https://github.com/Dreamacro/clash/releases/tag/premium) | `Linux` | `2023.02.16`
-[`ClashX Pro`](https://install.appcenter.ms/users/clashx/apps/clashx-pro/distribution_groups/public) | `macOS` | `1.97.0.2 ` | `Premium`
+[`ClashX Pro`](https://install.appcenter.ms/users/clashx/apps/clashx-pro/distribution_groups/public) | `macOS` | `1.97.0.4 ` | `Premium`
 
 
 
