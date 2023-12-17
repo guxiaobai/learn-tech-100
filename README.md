@@ -13,12 +13,12 @@
 * [You-Get](https://github.com/soimort/you-get)
 * [Microsoft Visual C++可再发行的最新支持下载](https://support.microsoft.com/zh-cn/kb/2977003)
 * [一键运行库 - IT天空](https://www.itsk.com/thread-396895-1-1.html)
-* [You-Get](https://github.com/soimort/you-get)
 * [Compiler Explorer](https://godbolt.org/)、[AST explorer](https://astexplorer.net/)
 * [如何维护更新日志](https://keepachangelog.com/)
 * [语义化版本](https://semver.org/lang/zh-CN/)
 * [JumpServer 开源堡垒机](https://www.fit2cloud.com/jumpserver/index.html)
 * [NetAssist网络调试助手](https://www.cmsoft.cn/resource/102.html)
+* [狂揽2500星，开源十六进制编辑器登顶GitHub热榜](https://zhuanlan.zhihu.com/p/333683885)、[`ImHex`](https://github.com/WerWolv/ImHex)
 
 
 ## misc
