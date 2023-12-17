@@ -7,8 +7,8 @@
 
 ## Versions
 
-* `3.0.2-21`: `Tue Feb  7 14:26:01 CST 2023`
-* ~~`3.0.0-26`~~: `Wed Jun  1 11:05:27 CST 2022`
+* [`3.0.2-21`](https://sourceforge.net/projects/clonezilla/files/clonezilla_live_stable/3.0.2-21/clonezilla-live-3.0.2-21-amd64.zip): `Tue Feb  7 14:26:01 CST 2023`
+* ~~[`3.0.0-26`](https://sourceforge.net/projects/clonezilla/files/clonezilla_live_stable/3.0.0-26/clonezilla-live-3.0.0-26-amd64.zip)~~ : `Wed Jun  1 11:05:27 CST 2022`
 
 ## Clonezilla Live on USB
 
