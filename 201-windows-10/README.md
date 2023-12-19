@@ -1,5 +1,15 @@
 # Windows 10
 
+|本期版本|上期版本
+|:---:|:---:
+`Tue Dec 19 23:25:28 CST 2023` | -
+
+## Update
+
+* [2023-适用于 Windows 10 Version 21H2 的 12 累积更新，适合基于 x64 的系统 (KB5033372)](https://catalog.s.download.windowsupdate.com/c/msdownload/update/software/secu/2023/12/windows10.0-kb5033372-x64_822cb06e298fd32637584b623f2cdaa3468f42a1.msu)
+* ~~[2023-适用于 Windows 10 Version 21H2 的 11 累积更新，适合基于 x64 的系统 (KB5032189)](https://catalog.s.download.windowsupdate.com/d/msdownload/update/software/secu/2023/11/windows10.0-kb5032189-x64_0a3b690ba3fa6cd69a2b0f989f273cfeadba745f.msu)~~
+
+
 ```
 dism /online /get-drivers /format:table
 dism /online /export-driver /destination:"C:\Drivers"
