@@ -18,7 +18,7 @@
 * [语义化版本](https://semver.org/lang/zh-CN/)
 * [JumpServer 开源堡垒机](https://www.fit2cloud.com/jumpserver/index.html)
 * [NetAssist网络调试助手](https://www.cmsoft.cn/resource/102.html)
-* [狂揽2500星，开源十六进制编辑器登顶GitHub热榜](https://zhuanlan.zhihu.com/p/333683885)、[`ImHex`](https://github.com/WerWolv/ImHex)
+
 
 
 ## misc
