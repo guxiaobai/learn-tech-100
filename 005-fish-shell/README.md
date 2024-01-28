@@ -64,6 +64,7 @@ set -e fish_user_paths[2]
 
 * [https://fishshell.com/](https://fishshell.com/)
 * [Fish shell 入门教程](http://www.ruanyifeng.com/blog/2017/05/fish_shell.html)
+* [Mark indicators appear in iTerm2 with fish 3.7.0 · Issue #10215 · fish-shell/fish-shell](https://github.com/fish-shell/fish-shell/issues/10215)
 
 **usage**
 
