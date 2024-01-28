@@ -29,6 +29,9 @@ brew install fish
 ```bash
 echo "/usr/local/bin/fish" | sudo tee -a /etc/shells
 chsh -s /usr/local/bin/fish
+
+# ~/.config/fish/config.fish
+eval (/usr/local/bin/brew shellenv)
 ```
 
 > `Apple silicon`
