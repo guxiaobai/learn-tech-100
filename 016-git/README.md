@@ -22,6 +22,20 @@ Set-Service -Name ssh-agent -StartupType Automatic
 Start-Service ssh-agent
 ```
 
+
+## Using SSH over the HTTPS port
+
+> <https://docs.github.com/en/authentication/troubleshooting-ssh/using-ssh-over-the-https-port>
+
+`~/.ssh/config`
+
+```
+Host github.com
+    Hostname ssh.github.com
+    Port 443
+    User git
+```
+
 **Misc**
 
 ```bash
