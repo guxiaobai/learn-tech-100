@@ -26,3 +26,4 @@ pkgutil --pkg-info=com.apple.pkg.CLTools_Executables
 
 
 * <https://developer.apple.com/download/all/>
+* [Xcode - 支持 - Apple Developer](https://developer.apple.com/cn/support/xcode/)
