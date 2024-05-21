@@ -4,11 +4,15 @@
 |:---:|:---:
 `Tue Dec 19 23:20:53 CST 2023` | -
 
+## Version
+
+文件名|发布时间
+---|---
+[zh-cn_windows_11_business_editions_version_23h2_updated_april_2024_x64_dvd_3db5a62b.iso](ed2k://\|file\|zh-cn_windows_11_business_editions_version_23h2_updated_april_2024_x64_dvd_3db5a62b.iso\|6911524864\|11AD95A6DA81712DA2D18AFA721F4476\|/) | 2024-04-16
 
 ## Update
 
-* [2023-适用于 Windows 11 Version 23H2 的 12 累积更新，适合基于 x64 的系统 (KB5033375)](https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/e082275c-9281-429a-be97-ac6fef637e92/public/windows11.0-kb5033375-x64_516f4fb2bb560cddf08e9d744de8029f802dec21.msu)
-* ~~[2023-适用于 Windows 11 Version 23H2 的 11 累积更新，适合基于 x64 的系统 (KB5032190)](https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/cd35ece3-585a-48e9-a9b5-ad5cd3699d32/public/windows11.0-kb5032190-x64_fdbd38c60e7ef2c6adab4bf5b508e751ccfbd525.msu)~~
+* [2024-适用于 Windows 11 Version 23H2 的 05 累积更新，适合基于 x64 的系统 (KB5037771)](https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/954d215c-85b0-41d9-8e85-04ee019234e2/public/windows11.0-kb5037771-x64_19a3f100fb8437d059d7ee2b879fe8e48a1bae42.msu)
 
 
 ```bash
