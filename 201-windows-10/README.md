@@ -4,6 +4,12 @@
 |:---:|:---:
 `Tue Dec 19 23:25:28 CST 2023` | -
 
+## Version
+
+文件名|发布时间
+---|---
+[zh-cn_windows_10_business_editions_version_22h2_updated_april_2024_x64_dvd_a2873093.iso](ed2k://|file|zh-cn_windows_10_business_editions_version_22h2_updated_april_2024_x64_dvd_a2873093.iso|6433263616|6D6236C84849BDDECA9EC3EF63340EAB|/) | 2024-04-16
+
 ## Update
 
 * [2023-适用于 Windows 10 Version 21H2 的 12 累积更新，适合基于 x64 的系统 (KB5033372)](https://catalog.s.download.windowsupdate.com/c/msdownload/update/software/secu/2023/12/windows10.0-kb5033372-x64_822cb06e298fd32637584b623f2cdaa3468f42a1.msu)
