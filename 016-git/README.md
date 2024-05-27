@@ -13,6 +13,9 @@ git config --global user.name "guxiaobai"
 git config --global user.email "sikuan.gu@gmail.com"
 git config --global init.defaultBranch main
 git config --global push.default simple
+
+# 忽略文件权限
+git config --global core.filemode false
 ```
 
 **Windows**
