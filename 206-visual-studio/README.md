@@ -2,10 +2,15 @@
 
 |            本期版本            | 上期版本 |
 | :----------------------------: | :------: |
-| `Fri Oct 28 13:30:51 CST 2022` |    -     |
+| `Sun Jun 23 11:40:27 CST 2024` |    -     |
+
+名称|ID
+---|---
+.NET 桌面开发 | `Microsoft.VisualStudio.Workload.ManagedDesktop`
+使用 C++ 的桌面开发 | `Microsoft.VisualStudio.Workload.NativeDesktop`
 
 ```powershell
-.\vs_community.exe --layout c:\localVSlayout --add Microsoft.VisualStudio.Workload.NativeDesktop --includeRecommended --lang en-US
+.\vs_community.exe --layout d:\localVSlayout --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NativeDesktop --includeRecommended --lang en-US
 ```
 
 ## Ref
