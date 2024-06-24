@@ -2,15 +2,17 @@
 
 |            本期版本            | 上期版本 |
 | :----------------------------: | :------: |
-| `Sun Jun 23 11:40:27 CST 2024` |    -     |
+| `Tue Jun 25 00:02:01 CST 2024` |    -     |
 
 名称|ID
 ---|---
+.NET Multi-Platform App UI 开发 |`Microsoft.VisualStudio.Workload.NetCrossPlat`
 .NET 桌面开发 | `Microsoft.VisualStudio.Workload.ManagedDesktop`
 使用 C++ 的桌面开发 | `Microsoft.VisualStudio.Workload.NativeDesktop`
+使用 Unity 的游戏开发 | `Microsoft.VisualStudio.Workload.ManagedGame`
 
 ```powershell
-.\vs_community.exe --layout d:\localVSlayout --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NativeDesktop --includeRecommended --lang en-US
+.\vs_community.exe --layout d:\localVSlayout -add Microsoft.VisualStudio.Workload.NetCrossPlat --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NativeDesktop -add Microsoft.VisualStudio.Workload.ManagedGame --includeRecommended --lang en-US
 ```
 
 ## Ref
