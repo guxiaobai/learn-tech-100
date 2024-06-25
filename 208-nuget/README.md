@@ -27,3 +27,4 @@ using Newtonsoft.Json;
 * <https://www.nuget.org/packages>
 * <https://learn.microsoft.com/en-us/nuget/>
 * <https://learn.microsoft.com/en-us/nuget/quickstart/install-and-use-a-package-using-the-dotnet-cli>
+* <https://www.nuget.org/packages/MaterialDesignThemes>
