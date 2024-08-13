@@ -1,8 +1,36 @@
 {
     "control": [
-        { "VTOY_DEFAULT_SEARCH_ROOT": "/iso" },        
+        { "VTOY_DEFAULT_SEARCH_ROOT": "/iso" },
         { "VTOY_MENU_TIMEOUT": "10" },
-        { "VTOY_DEFAULT_IMAGE": "/iso/WePE_64_V2.1.iso" },
+        { "VTOY_DEFAULT_IMAGE": "/iso/WePE_64_V2.3.iso" },
         { "VTOY_SECONDARY_BOOT_MENU": 0 }
+    ],
+    "auto_install": [
+        {
+            "image": "/iso/zh-cn_windows_11_business_editions_version_23h2_updated_july_2024_x64_dvd_8c3fbaa8.iso",
+            "template": [
+                "/ventoy/script/win11-uefi-oobe.xml"
+            ]
+        },
+        {
+            "image": "/iso/zh-cn_windows_10_business_editions_version_22h2_updated_july_2024_x64_dvd_53d015e8.iso",
+            "template": [
+                "/ventoy/script/win10-uefi-oobe.xml"
+            ]
+        }
+    ],
+    "injection": [
+        {
+            "image": "/iso/zh-cn_windows_11_business_editions_version_23h2_updated_july_2024_x64_dvd_8c3fbaa8.iso",
+            "archive": "/ventoy/inject/gpt.zip"
+        },
+        {
+            "image": "/iso/zh-cn_windows_10_business_editions_version_22h2_updated_july_2024_x64_dvd_53d015e8.iso",
+            "archive": "/ventoy/inject/gpt.zip"
+        },
+        {
+            "image": "/iso/SW_DVD9_WIN_ENT_LTSC_2021_64BIT_ChnSimp_MLF_X22-84402.ISO",
+            "archive": "/ventoy/inject/gpt.zip"
+        }
     ]
 }
