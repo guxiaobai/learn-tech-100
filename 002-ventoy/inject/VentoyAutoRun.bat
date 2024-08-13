@@ -16,6 +16,7 @@ REM ###########################################################################
 set ISOFILE=%1
 set MNTPOINT=%2
 
+@REM diskpart /s X:\CreatePartitions-BIOS-FFU.txt
 diskpart /s X:\CreatePartitions-UEFI-FFU.txt
 
 REM ###########################################################################
