@@ -31,3 +31,5 @@ sudo certbot certonly --nginx -d "example.com" -m "sikuan.gu@gmail.com" --agree-
 
 * <https://www.youtube.com/watch?v=HC3KtcLqOFU&t=938s>
 * <https://zerossl.com/>
+* <https://github.com/httpsok/httpsok>
+* [Certbot实现 HTTPS 免费证书(Let‘s Encrypt)自动续期](https://blog.csdn.net/as604049322/article/details/134957466)
