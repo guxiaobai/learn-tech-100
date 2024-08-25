@@ -1,6 +1,10 @@
 ---
   - hosts: all
     tasks:
+    - name: ensures clash dir exists
+      file: 
+        path: "/etc/clash"
+        state: directory
     - name: install clash
       copy:
         src: "{{ item.name }}"

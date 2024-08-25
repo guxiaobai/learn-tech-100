@@ -1,5 +1,10 @@
-clash-linux-amd64-v1.13.0.gz:
-	wget https://github.com/Dreamacro/clash/releases/download/v1.13.0/clash-linux-amd64-v1.13.0.gz
+Country.mmdb:
+	wget https://github.com/Dreamacro/maxmind-geoip/releases/download/20240812/Country.mmdb
+
+# wget https://github.com/Dreamacro/clash/releases/download/v1.13.0/clash-linux-amd64-v1.13.0.gz
+clash-linux-amd64-v1.18.0.gz:
+	wget https://raw.githubusercontent.com/Loyalsoldier/clash-rules/hidden/software/clash/clash-linux-amd64-v1.18.0.gz
+	gunzip -c clash-linux-amd64-v1.18.0.gz > clash
 
 clash-linux-amd64-2023.02.16.gz:
 	wget https://github.com/Dreamacro/clash/releases/download/premium/clash-linux-amd64-2023.02.16.gz
@@ -7,8 +12,7 @@ clash-linux-amd64-2023.02.16.gz:
 Clash.for.Windows-0.20.16-x64-linux.tar.gz:
 	wget https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.20.16/Clash.for.Windows-0.20.16-x64-linux.tar.gz
 	
-Country.mmdb:
-	wget https://github.com/Dreamacro/maxmind-geoip/releases/download/20230212/Country.mmdb
+
 	
 clash-dashboard:
 	git clone -b gh-pages https://github.com/Dreamacro/clash-dashboard clash-dashboard
@@ -18,7 +22,7 @@ logo.png:
 	
 
 clash:
-	gunzip -c clash-linux-amd64-v1.13.0.gz > clash
+	gunzip -c clash-linux-amd64-v1.18.0.gz > clash
 	sudo mv clash /usr/local/bin/clash
 	sudo chmod +x /usr/local/bin/clash
 

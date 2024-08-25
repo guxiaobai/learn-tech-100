@@ -76,6 +76,7 @@ external-ui: clash-dashboard
 * [在 Linux 中使用 Clash | CodeSwift](https://blog.iswiftai.com/posts/clash-linux/)
 * [Ubuntu下使用Clash For Windows](https://i.hiifong.cc/clash/)
 * [Clash for Windows 代理工具使用说明](https://docs.gtk.pw/)
+* **<https://github.com/Loyalsoldier/clash-rules/tree/hidden>**
 
 
 
