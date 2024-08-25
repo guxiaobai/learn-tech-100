@@ -5,6 +5,7 @@
       file: 
         path: "/etc/clash"
         state: directory
+
     - name: install clash
       copy:
         src: "{{ item.name }}"
@@ -20,5 +21,6 @@
     - name: Start service Clash
       service:
         name: clash
-        enabled: yes
+        daemon_reload: true
+        enabled: false
         state: started

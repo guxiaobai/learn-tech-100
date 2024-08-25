@@ -4,6 +4,13 @@
 |:---:|:---:
 `Tue Feb  7 15:43:33 CST 2023` | -
 
+## Rules
+
+```
+# Aliyun ECS
+DOMAIN,mirrors.cloud.aliyuncs.com,DIRECT
+```
+
 
 ## Releases
 
