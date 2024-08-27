@@ -33,3 +33,5 @@ sudo certbot certonly --nginx -d "example.com" -m "sikuan.gu@gmail.com" --agree-
 * <https://zerossl.com/>
 * <https://github.com/httpsok/httpsok>
 * [Certbot实现 HTTPS 免费证书(Let‘s Encrypt)自动续期](https://blog.csdn.net/as604049322/article/details/134957466)
+* [SSL证书安装指南](https://help.aliyun.com/zh/ssl-certificate/user-guide/installation-overview?spm=a2c4g.11186623.0.i4)
+* [在Nginx（或Tengine）服务器上安装证书 - SSL证书服务 - 阿里云](https://help.aliyun.com/document_detail/98728.html)
