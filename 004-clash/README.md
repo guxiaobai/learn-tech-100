@@ -86,6 +86,7 @@ rules:
 * [Ubuntu下使用Clash For Windows](https://i.hiifong.cc/clash/)
 * [Clash for Windows 代理工具使用说明](https://docs.gtk.pw/)
 * **<https://github.com/Loyalsoldier/clash-rules/tree/hidden>**
+* <https://clash.gitbook.io/doc/restful-api>
 
 
 
