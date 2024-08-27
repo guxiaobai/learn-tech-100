@@ -1,22 +1,38 @@
 ---
   - hosts: all
+    pre_tasks:
+      - apt: update_cache=true cache_valid_time=3600
+
     tasks:
+    - name: install dependencies
+      apt:
+        name: "{{ item }}"
+        state: present
+        update_cache: true
+      with_items:
+        - unzip
+
     - name: ensures clash dir exists
       file: 
-        path: "/etc/clash"
+        path: /etc/clash
         state: directory
-
-    - name: install clash
-      copy:
-        src: "{{ item.name }}"
+        
+    - name: clash collections
+      get_url:
+        url: "https://devops.lv993.com/004-clash/{{ item.name }}"
         dest: "{{ item.path }}"
         mode: '0755'
       with_items:
+        - { name: 'clash-linux-amd64-v1.18.0', path: '/usr/local/bin/clash' }
         - { name: 'Country.mmdb', path: '/etc/clash/Country.mmdb' }
-        - { name: 'clash-dashboard', path: '/etc/clash/clash-dashboard' }
-        - { name: 'config.yaml', path: '/etc/clash/config.yaml'}
-        - { name: 'clash', path: '/usr/local/bin/clash' }
         - { name: 'clash.service', path: '/etc/systemd/system/clash.service' }
+        - { name: 'config.yaml', path: '/etc/clash/config.yaml' }
+
+    - name: clash-dashboard
+      unarchive:
+        src: https://devops.lv993.com/004-clash/clash-dashboard-gh-pages.zip
+        dest: /etc/clash
+        remote_src: yes
 
     - name: Start service Clash
       service:

@@ -4,11 +4,21 @@
 |:---:|:---:
 `Tue Feb  7 15:43:33 CST 2023` | -
 
-## Rules
+```
+systemctl status clash
 
 ```
-# Aliyun ECS
-DOMAIN,mirrors.cloud.aliyuncs.com,DIRECT
+
+> 配置
+
+```json
+allow-lan: true
+external-controller: '0.0.0.0:9090'
+external-ui: clash-dashboard-gh-pages
+dns:
+  enable: false
+rules:
+  - 'DOMAIN,mirrors.cloud.aliyuncs.com,DIRECT'
 ```
 
 
@@ -32,21 +42,13 @@ DOMAIN,mirrors.cloud.aliyuncs.com,DIRECT
 
 
 
-
-
 ## Dashboard
 
 * [`clash-dashboard`](https://github.com/Dreamacro/clash-dashboard): <http://clash.razord.top/>
 * [`yacd-dashboard`](https://github.com/haishanh/yacd): <http://yacd.haishan.me/>
 * <http://127.0.0.1:9090/ui>
 
-> 配置
 
-```json
-allow-lan: true
-external-controller: '0.0.0.0:9090'
-external-ui: clash-dashboard
-```
 
 
 ## Clash for Windows
