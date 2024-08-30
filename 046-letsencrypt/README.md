@@ -20,6 +20,18 @@ sudo certbot certonly --nginx -d "example.com" -m "sikuan.gu@gmail.com" --agree-
 ```
 
 
+## dns
+
+```
+certbot certonly --preferred-challenges dns -d "*.lv993.com" --manual -m "sikuan.gu@gmail.com" --agree-tos
+```
+
+```
+nslookup -type=txt _acme-challenge.lv993.com
+dig -t txt _acme-challenge.lv993.com
+```
+
+
 ## Ref
 
 * <https://letsencrypt.org/>
