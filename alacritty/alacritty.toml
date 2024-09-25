@@ -1,5 +1,8 @@
 [window]
 opacity = 0.9
+position = { x = 400, y = 400 }
+# MacBook Air
+# position = { x = 300, y = 600 }
 dimensions = { columns = 120, lines = 25 }
 padding = { x = 3, y = 5 }
 
