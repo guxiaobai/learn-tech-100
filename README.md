@@ -18,6 +18,7 @@
 * [语义化版本](https://semver.org/lang/zh-CN/)
 * [JumpServer 开源堡垒机](https://www.fit2cloud.com/jumpserver/index.html)
 * [NetAssist网络调试助手](https://www.cmsoft.cn/resource/102.html)
+* [DirectX End-User Runtimes (June 2010)](https://www.microsoft.com/en-us/download/details.aspx?id=8109)、[DirectX End-User Runtime Web Installer](https://www.microsoft.com/en-us/download/details.aspx?id=35)
 
 
 
