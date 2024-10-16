@@ -15,7 +15,7 @@
 
 ## Ref
 
-
+* [永久免费使用正版Office！微软官方 LTSC 2024 长期服务版安装教程 ，简单易懂！| 零度解说 - YouTube](https://www.youtube.com/watch?v=vRCV38wrl9s)
 * [用于 KMS 和基于 Active Directory 的 Office、Project 和 Visio 激活的 GVLK](https://learn.microsoft.com/zh-cn/deployoffice/vlactivation/gvlks)
 * [用于管理 Office 批量激活的工具](https://docs.microsoft.com/zh-cn/deployoffice/vlactivation/tools-to-manage-volume-activation-of-office)
 * [面向 Office for Mac 管理员的部署选项](https://learn.microsoft.com/zh-cn/deployoffice/mac/deployment-options-for-office-for-mac)
