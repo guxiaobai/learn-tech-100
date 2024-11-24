@@ -56,10 +56,14 @@ set -Ux LC_ALL en_US.UTF-8
 set -Ux HOMEBREW_NO_AUTO_UPDATE 1
 ```
 
-## Misc
+## Misc(降低某个软件的版本)
+
+> 雷电项目nodejs需要时用`16x`版本
+
+* <https://superuser.com/questions/776008/how-to-remove-a-path-from-path-variable-in-fish>
 
 ```
-// https://superuser.com/questions/776008/how-to-remove-a-path-from-path-variable-in-fish
+echo $fish_user_paths | tr " " "\n" | nl
 set -e fish_user_paths[2]
 ```
 
