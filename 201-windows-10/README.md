@@ -25,10 +25,7 @@ powercfg.exe /hibernate off
 * [备份和恢复 Windows10 驱动](https://empvalley.com/2021/06/23/backup-and-restore-device-drivers-in-windows10/)
 * [PnPUtil简介与使用](https://blog.csdn.net/VinWqx/article/details/116237305)
 
-**kms**
 
-* [Slmgr.vbs 选项](https://docs.microsoft.com/zh-cn/windows-server/get-started/activation-slmgr-vbs-options)
-* [https://03k.org/kms.html](https://03k.org/kms.html)
 
 **System time**
 
