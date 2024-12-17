@@ -18,7 +18,6 @@ powercfg.exe /hibernate off
 ## Ref
 
 
-* [Microsoft Update Catalog](https://www.catalog.update.microsoft.com/Home.aspx)
 * [比较 Windows 10 的不同版本](https://www.microsoft.com/zh-cn/windowsforbusiness/compare)
 
 **Drivers**
