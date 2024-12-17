@@ -4,6 +4,11 @@
 |:---:|:---:
 `Thu Oct  7 18:26:28 CST 2021` | -
 
+## Windows
+
+* <https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi>
+* <https://community.chocolatey.org/packages/GoogleChrome#files>
+
 ## Ubuntu
 
 ```
