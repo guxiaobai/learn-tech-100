@@ -3,13 +3,18 @@
 
 |本期版本|上期版本
 |:---:|:---:
-`Tue Dec 17 16:48:04 CST 2024` | `Sun Jun 23 11:49:09 CST 2024`
+`Sat Jan 11 15:34:16 CST 2025` | `Tue Dec 17 16:48:04 CST 2024`
 
 ## macOS
 
 ```bash
 brew install dotnet-sdk
 ```
+
+```bash
+# https://learn.microsoft.com/zh-cn/dotnet/core/tutorials/top-level-templates#use-the-old-program-style
+dotnet new console --use-program-main -o ./TestProject
+````
 
 
 Command | Note
