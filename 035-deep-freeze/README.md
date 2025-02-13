@@ -9,14 +9,16 @@
 
 > `6RHT5AFF-6V4CR7S3-7EN3B8CP-W9H4R6FG-7JQS8BAQ`
 
-Version|
----|
-`7.50.220.0100 (October 28, 2022)` |
+Version|Notes
+---|---
+`7.70.220.0230 (October 15, 2024)` | Support for macOS Sequoia 15.
+~~`7.50.220.0100 (October 28, 2022)`~~ |
 
 
 ## Deep Freeze Standard
 
-> [`PowerTool`](http://powertool.s601.xrea.com/)
+* <https://github.com/BlackINT3/OpenArk>
+* ~~[`PowerTool`](http://powertool.s601.xrea.com/)~~
 
 Version|
 ---|
