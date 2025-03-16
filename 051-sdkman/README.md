@@ -2,11 +2,12 @@
 
 |本期版本|上期版本
 |:---:|:---:
-`Thu Oct 31 20:06:53 CST 2024` | -
+`Sun Mar 16 13:42:14 CST 2025` | `Thu Oct 31 20:06:53 CST 2024`
 
 
 ```bash
 curl -s "https://get.sdkman.io" | bash
+source "/Users/lemon/.sdkman/bin/sdkman-init.sh"
 ```
 
 ```bash
@@ -19,6 +20,8 @@ sdk list java
 sdk install java 21.0.5-tem
 sdk use java 21.0.5-tem 
 sdk default java 21.0.5-tem
+
+java --version
 ```
 
 ## Ref
