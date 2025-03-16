@@ -28,4 +28,5 @@ mise ls-remote php
 
 
 
-<https://mise.jdx.dev/>
+* <https://mise.jdx.dev/>
+* [多版本管理工具 mise 使用详解](https://unsafe.sh/go-300080.html)
