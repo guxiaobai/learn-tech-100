@@ -13,6 +13,12 @@ set -Ux OLLAMA_MODELS /Volumes/THAWSPACE/.ollama/models
 
 
 
+```
+curl http://localhost:11434
+```
+
+
+
 
 
 ## Ref
