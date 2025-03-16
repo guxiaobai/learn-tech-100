@@ -4,6 +4,25 @@
 |:---:|:---:
 `Fri Feb 10 14:35:01 CST 2023` | -
 
+
+
+## 新增AI相关工具
+
+
+
+```
+brew install ollma --cask
+brew install cursor
+brew install trae --cask
+brew install chatgpt
+```
+
+
+
+
+
+
+
 ## Install
 
 
@@ -67,5 +86,4 @@ eval (/opt/homebrew/bin/brew shellenv)
 * [https://github.com/Homebrew/homebrew-cask-versions](https://github.com/Homebrew/homebrew-cask-versions)
 * [https://github.com/Homebrew/homebrew-cask-fonts](https://github.com/Homebrew/homebrew-cask-fonts)
 * [https://github.com/Homebrew/homebrew-cask-drivers](https://github.com/Homebrew/homebrew-cask-drivers)
-
 
