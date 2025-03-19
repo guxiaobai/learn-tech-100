@@ -5,10 +5,6 @@
 `Mon Jan 23 21:20:12 CST 2023` | `Thu Nov 11 10:56:49 CST 2021`
 
 
-## Office Deployment Tool
-
-* [Office 部署工具概述](https://learn.microsoft.com/zh-cn/deployoffice/overview-office-deployment-tool)
-* [Office 自定义工具](https://config.office.com/deploymentsettings)
 
 
 ## 2024
