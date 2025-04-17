@@ -11,6 +11,24 @@ shif+F10打开命令窗口
 输入OOBE\BYPASSNRO回车
 ```
 
+## Smb共享
+
+组策略路径|	组策略设置|	值
+---|---|---
+计算机配置\Windows 设置\安全设置\本地策略\安全选项|	Microsoft 网络客户端：对通信进行数字签名（始终）|	已禁用
+计算机配置\管理模板\网络\ Lanman 工作站|	允许不安全的来宾登录 | 已禁用
+
+
+```powershell
+Set-SmbClientConfiguration -RequireSecuritySignature $false
+Set-SmbClientConfiguration -EnableInsecureGuestLogons $true
+```
+
+**Ref**
+
+* [在 SMB2 和 SMB3 中为 Windows 客户端和 Windows Server 启用不安全的来宾登录 | Microsoft Learn](https://learn.microsoft.com/zh-cn/windows-server/storage/file-server/enable-insecure-guest-logons-smb2-and-smb3?tabs=group-policy#enable-insecure-guest-logons)
+* [【技术分享】Windows 11 24H2系统访问共享文件夹提示：出现了扩展错误](https://h30471.www3.hp.com/t5/bi-ji-ben-dian-nao-zhi-shi-ku/ji-shu-fen-xiang-Windows-11-24H2xi-tong-fang-wen-gong-xiang-wen-jian-jia-ti-shi-chu-xian-le-kuo-zhan-cuo-wu/ta-p/1319835)
+
 
 ## Ref
 
