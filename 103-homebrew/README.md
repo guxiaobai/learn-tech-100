@@ -5,10 +5,7 @@
 `Fri Feb 10 14:35:01 CST 2023` | -
 
 
-
 ## 新增AI相关工具
-
-
 
 ```
 brew install ollma --cask
@@ -16,10 +13,6 @@ brew install cursor
 brew install trae --cask
 brew install chatgpt
 ```
-
-
-
-
 
 
 
@@ -60,7 +53,6 @@ eval (/opt/homebrew/bin/brew shellenv)
 名称|备注
 :---:|:---:
 [`homebrew/bundle`](https://github.com/Homebrew/homebrew-bundle) |
-[`homebrew/services`](https://github.com/Homebrew/homebrew-services) | 
 
 
 ## Debugger

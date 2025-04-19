@@ -1,5 +1,4 @@
 tap "homebrew/cask"
-tap "homebrew/services"
 
 # App
 brew "tmux"
