@@ -1,6 +1,25 @@
 # XQuartz
 
 
+
+`XQuartz` - `Preferences` -`Security` - `Allow connections from network clients`
+
+
+
+```bash
+export DISPLAY=:0
+```
+
+
+
+```bash
+xhost +
+```
+
+
+
+
+
 ## Support Fish
 
 > `/Applications/Utilities/XQuartz.app/Contents/MacOS/X11.sh`
