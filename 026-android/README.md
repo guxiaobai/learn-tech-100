@@ -74,6 +74,9 @@ fish_add_path $ANDROID_HOME/emulator
 * https://developer.android.com/studio?hl=zh-cn
 * https://blog.csdn.net/xuxiobo5/article/details/115469446
 * https://cloud.tencent.com/developer/article/2108851
+* [Android Studio 下载文件归档](https://developer.android.com/studio/archive?hl=zh-cn)
+* [模拟器下载归档](https://developer.android.com/studio/emulator_archive?hl=zh-cn)
+* [环境变量](https://developer.android.google.cn/tools/variables?hl=zh-cn)
 
 
 
