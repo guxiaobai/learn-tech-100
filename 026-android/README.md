@@ -5,6 +5,14 @@
 |:---:|:---:
 `Tue Mar  4 17:28:45 CST 2025` | `Mon Nov 16 10:09:37 CST 2020`
 
+```
+C:\Users\Administrator\AppData\Local\Android\Sdk
+%ANDROID_HOME%
+```
+
+```
+~/Library/Android/sdk
+```
 
 ## 安装
 
