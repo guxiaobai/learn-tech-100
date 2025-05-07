@@ -1,70 +1,70 @@
 ## 026 - Android
 
-
 |本期版本|上期版本
 |:---:|:---:
 `Tue Mar  4 17:28:45 CST 2025` | `Mon Nov 16 10:09:37 CST 2020`
 
-```
-C:\Users\Administrator\AppData\Local\Android\Sdk
-%ANDROID_HOME%
-```
+## 默认SDK路径
 
-```
-~/Library/Android/sdk
-```
+平台|路径
+---|---
+windows | `C:\Users\Administrator\AppData\Local\Android\Sdk`
+Mac | `~/Library/Android/sdk`
 
-## 安装
+
+## Android Studio 下载
+
+平台|Android Studio 软件包
+---|---
+Windows（64 位）| [android-studio-2024.3.1.15-windows.exe](https://redirector.gvt1.com/edgedl/android/studio/install/2024.3.1.15/android-studio-2024.3.1.15-windows.exe)
+Mac（64 位、ARM）| [android-studio-2024.3.1.15-mac_arm.dmg](https://redirector.gvt1.com/edgedl/android/studio/install/2024.3.1.15/android-studio-2024.3.1.15-mac_arm.dmg)
+
+
+## 仅限命令行工具
+
+平台|SDK 工具包
+---|---
+Windows | [commandlinetools-win-13114758_latest.zip](https://dl.google.com/android/repository/commandlinetools-win-13114758_latest.zip?hl=zh-cn)
+Mac | [commandlinetools-mac-13114758_latest.zip](https://dl.google.com/android/repository/commandlinetools-mac-13114758_latest.zip?hl=zh-cn)
+
+
+
+## Android SDK 命令行工具
+
+> https://developer.android.com/tools?hl=zh-cn#tools-sdk
+
+
+### 安装
 
 ```bash
-unzip commandlinetools-mac-11076708_latest.zip
+unzip commandlinetools-mac-13114758_latest.zip
 mkdir -p ~/Library/Android/sdk/cmdline-tools
 mv cmdline-tools ~/Library/Android/sdk/cmdline-tools/latest
-rm -rf cmdline-tools
 ```
-
-```
-export ANDROID_HOME="/Users/lemon/Library/Android/sdk"
-export PATH=$ANDROID_HOME/cmdline-tools/latest/bin:$PATH
-export PATH=$ANDROID_HOME/build-tools/30.0.3:$PATH
-```
-
 
 ```bash
-set -Ux ANDROID_HOME $HOME/Library/Android/sdk
-set -Ux PATH $ANDROID_HOME/cmdline-tools/latest/bin
-```
-
-
-
-
-
-```bash
-set -Ux ANDROID_HOME /Volumes/THAWSPACE/.Android/sdk
-fish_add_path $ANDROID_HOME/platform-tools
-fish_add_path $ANDROID_HOME/build-tools/35.0.1
+set -Ux ANDROID_HOME ~/Library/Android/sdk
 fish_add_path $ANDROID_HOME/cmdline-tools/latest/bin
 ```
 
 
 
-## 安装所需的 SDK 组件
+### 安装所需的 SDK 组件
+
+名称| 版本|命令
+---|---|---
+SDK 平台 |  `sdkmanager "platforms;android-35"`
+Android SDK 构建工具 |  `sdkmanager "build-tools;36.0.0"`
+Android SDK 平台工具 | `sdkmanager "platform-tools"`| `adb`
+Android 模拟器 | `sdkmanager "emulator"`
+
 
 ```bash
-# ~/Library/Android/sdk/platforms/android-30
-sdkmanager "platforms;android-30"
+fish_add_path $ANDROID_HOME/platform-tools
+fish_add_path $ANDROID_HOME/build-tools/35.0.1
+fish_add_path $ANDROID_HOME/emulator
 ```
 
-```bash
-sdkmanager "build-tools;30.0.3"``
-```
-
-```bash
-
-sdkmanager "emulator"
-sdkmanager "build-tools;35.0.1"
-sdkmanager "platform-tools"
-```
 
 
 
@@ -72,7 +72,6 @@ sdkmanager "platform-tools"
 
 
 * https://developer.android.com/studio?hl=zh-cn
-* https://developer.android.com/tools?hl=zh-cn
 * https://blog.csdn.net/xuxiobo5/article/details/115469446
 * https://cloud.tencent.com/developer/article/2108851
 
