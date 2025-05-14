@@ -7,7 +7,6 @@ sudo spctl --master-disable
 ## Command Line Tools
 
 * `15.4`: `16.3`
-* ~~`15.3`: `16.2`~~
 * `13.7.3`: `15.1`
 
 ## Clash
@@ -94,8 +93,6 @@ brew "nginx"
 brew "mysql@8.4"
 brew "postgresql@16"
 brew "redis"
-brew "node@22"
-# brew "yarn"
 brew "ruby@3.2"
 # brew "rbenv"
 brew "python@3.12"
@@ -137,7 +134,6 @@ vagrant box add ubuntu/jammy64
 
 ```bash
 docker pull ubuntu:22.04
-docker pull node:22
 docker pull ruby:3.2
 docker pull python:3.12
 docker pull php:8.3-fpm
@@ -206,24 +202,6 @@ brew install mise
 mise use --global node@22
 ```
 
-## pnpm
-
-```bash
-npm install -g pnpm
-
-mkdir -p /Volumes/THAWSPACE/.pnpm/store/v3
-pnpm config set store-dir /Volumes/THAWSPACE/.pnpm/store/v3
-# 获取当前活跃的store目录
-pnpm store path
-
-```
-
-```bash
-set -gx PNPM_HOME "/Volumes/THAWSPACE/.pnpm"
-fish_add_path  $PNPM_HOME
-
-pnpm add -g create-vue
-```
 
 ## mysql
 
@@ -277,23 +255,6 @@ fish_add_path /usr/local/lib/ruby/gems/3.2.0/bin
 ```
 
 
-## Node
-
-```bash
-brew install node@22
-
-# Apple silicon
-fish_add_path /opt/homebrew/opt/node@22/bin
-
-# Intel-based
-fish_add_path /usr/local/opt/node@22/bin
-```
-
-**npm**
-
-```
-# npm install -g npm@9.6.7
-```
 
 
 ## Python
