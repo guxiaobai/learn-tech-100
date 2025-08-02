@@ -91,7 +91,6 @@ cask "chatgpt"
 cask "temurin@21"
 brew "nginx"
 brew "mysql@8.4"
-brew "postgresql@16"
 brew "redis"
 brew "ruby@3.2"
 # brew "rbenv"
@@ -139,7 +138,6 @@ docker pull python:3.12
 docker pull php:8.3-fpm
 docker pull redis:7.2
 docker pull mysql:8.4
-docker pull postgres:16
 docker pull nginx:1.27
 ```
 
@@ -217,19 +215,7 @@ fish_add_path /usr/local/opt/mysql@8.4/bin
 fish_add_path /opt/homebrew/opt/mysql@8.4/bin
 ```
 
-## postgresql
 
-> `Intel-based`
-
-```bash
-fish_add_path /usr/local/opt/postgresql@16/bin
-```
-
-> `Apple silicon`
-
-```bash
-fish_add_path /opt/homebrew/opt/postgresql@16/bin
-```
 
 ## Ruby
 
